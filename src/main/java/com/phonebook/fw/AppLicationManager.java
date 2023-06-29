@@ -1,4 +1,4 @@
-package com.phonebook.tests;
+package com.phonebook.fw;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class AppLicationManager {
     String browser;
-    WebDriver driver;
+    public WebDriver driver;
 
     UserHelper user;
     ContactHelper contact;
@@ -22,6 +22,9 @@ public class AppLicationManager {
     }
 
     public void init() {
+
+        System.err.close();
+
         if(browser.equalsIgnoreCase("chrome")){
             driver= new ChromeDriver();
         } else if (browser.equalsIgnoreCase("edge")) {
@@ -34,8 +37,6 @@ public class AppLicationManager {
             driver = new FirefoxDriver();
 
         }
-
-        driver= new ChromeDriver();
 
 
         driver.get ("https://telranedu.web.app/");

@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Negativ" verbose="1" >
+    <test name="Negativ" >
+        <classes>
+            <class name="com.phonebook.tests.CreateAccountTest" >
+                <methods>
+                    <include name="existedUserRegistrationNegativeTest"></include>
+                </methods>
+            </class>
+            <class name="com.phonebook.tests.LoginTests" >
+                <methods>
+                    <include name="loginNegativeWhithoutPasswordTest"></include>
+                </methods>
+            </class>
+            <class name="com.phonebook.tests.CreateContactTests" >
+                <methods>
+                    <include name="addNegativeContactFromCsvFilePositiveTest"></include>
+                </methods>
+            </class>
+
+
+            </classes>
+    </test>
+
+
+</suite>
