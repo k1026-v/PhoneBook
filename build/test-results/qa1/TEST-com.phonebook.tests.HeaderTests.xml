@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.HeaderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-29T08:28:41" hostname="DESKTOP-OS617JJ" time="0.143">
+  <properties/>
+  <testcase name="isAboutElementExist" classname="com.phonebook.tests.HeaderTests" time="0.027"/>
+  <testcase name="isHomeElementExist" classname="com.phonebook.tests.HeaderTests" time="0.024"/>
+  <testcase name="isLoginElementExist" classname="com.phonebook.tests.HeaderTests" time="0.038"/>
+  <testcase name="isLogoExist" classname="com.phonebook.tests.HeaderTests" time="0.027"/>
+  <system-out><![CDATA[10:28:41.478 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testisAboutElementExistwith data: []
+10:28:41.509 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: isAboutElementExist
+10:28:41.509 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:28:41.510 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+10:28:41.513 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testisHomeElementExistwith data: []
+10:28:41.542 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: isHomeElementExist
+10:28:41.543 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:28:41.543 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+10:28:41.546 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testisLoginElementExistwith data: []
+10:28:41.587 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: isLoginElementExist
+10:28:41.587 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:28:41.588 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+10:28:41.594 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testisLogoExistwith data: []
+10:28:41.625 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: isLogoExist
+10:28:41.625 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:28:41.625 [Test worker] INFO  com.phonebook.tests.TestBase -- ==================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
